@@ -17,13 +17,13 @@ function currentLine(line) {
     return 'The line is currently empty.'
   }
 
-  let retStr = 'The line is currently: ';
+  let returnStr = 'The line is currently: ';
 
-  line.forEach( function(person, i){
-    retStr += `${i + 1}. ${person}`;
+  line.forEach( function(person, i){  
+    returnStr += `${i + 1}. ${person}`;
     if (i != line.length - 1) {
-      retStr += ', '
+      returnStr += ', ';
     }
   })
-  return retStr;
+  return returnStr;
 }
