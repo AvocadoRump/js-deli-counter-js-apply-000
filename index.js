@@ -22,9 +22,9 @@ function currentLine(line) {
   if (!line.length) {
     return 'The line is currently empty.'
   }
-  
+
   let retStr = 'The line is currently: ';
-  
+
   line.forEach( function(person, i){
     ret += `${i + 1}. ${person}, `
   })
