@@ -1,5 +1,6 @@
 function takeANumber(currentLine, newPerson) {
-  return `Welcome, ${newPerson}. You are number ${currentLine} in line.`
+  let place = currentLine.length + 1;
+  return `Welcome, ${newPerson}. You are number ${place} in line.`
 }
 
 function nowServing(currentLine) {
