@@ -19,7 +19,7 @@ function currentLine(line) {
 
   let returnStr = 'The line is currently: ';
 
-  line.forEach( function(person, i){  
+  line.forEach( function(person, i){
     returnStr += `${i + 1}. ${person}`;
     if (i != line.length - 1) {
       returnStr += ', ';
