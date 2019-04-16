@@ -5,7 +5,7 @@ function takeANumber(currentLine, newPerson) {
 
 function nowServing(currentLine) {
   if (!currentLine.length) {
-    return 'The line is currently empty.'
+    return 'There is nobody waiting to be served!'
   }
   let serveNow = currentLine[0];
   currentLine.shift();
